@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="shortcut icon"
+            href="imgs/logo1Solidar.png"
+            type="image/x-icon"
+        />
+        <script src="https://kit.fontawesome.com/0e891662a9.js" crossorigin="anonymous"></script>
+        <title>Solidar</title>
+    </head>
+
+    <body>
+        <header>
+            <nav role="navigation" class="navbar">
+                <div class="navbar__logo">
+                <a href="#sobresolidar"> 
+                    <img src="imgs/logo2solidar.png" alt="logo solidar">  
+                </a>
+                </div>
+                <div class="navbar__wrapper">
+                <input type="checkbox" id="hamburger">
+                <label for="hamburger" class="navbar__button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                    <ul class="navbar__links">
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="pesquisa.html">Quero Doar</a></li>
+                        <li><a href="colaboradores.html">Sobre Colaboradores</a></li>
+                        
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <section id="inicio">
+            <div class="textos_inicio">
+            <h1><span>Soli</span>Dar</h1>
+          
+            <h2>Um novo jeito de se <span>conectar</span></h2>
+              </div>
+
+
+            <div class="imagens_inicio">
+
+                <img src="imgs/fotosolidarinicio.png" alt="">
+                <!-- <img src="https://images.unsplash.com/photo-1535295972055-1c762f4483e5?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                
+                <img src="https://images.unsplash.com/photo-1535295972055-1c762f4483e5?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="img2"/> -->
+            </div>
+        </section>
+
+        <!-- Inicio CARD-SOBRE -->
+
+        <section class="cards-sobre">
+            <article class="card-sobre" id="sobre">
+                <div>
+                    <h1>Missão</h1>
+                </div>
+                <div>
+                    <p>
+                        Nossa missão é mobilizar recursos e apoiar iniciativas
+                        que promovam a igualdade social, o bem-estar comunitário
+                        e a sustentabilidade ambiental, conectando doadores com
+                        causas impactantes com transparência e eficácia.
+                    </p>
+                </div>
+            </article>
+            <article class="card-sobre">
+                <div>
+                    <h1>Valores</h1>
+                </div>
+                <div>
+                    <p>
+                        - ”Inclusão: Promover a igualdade e diversidade,
+                        garantindo que todos tenham a oportunidade de contribuir
+                        e se beneficiar das iniciativas da organização.
+                    </p>
+                    <br />
+                    <p>
+                        - “Impacto: Nosso objetivo é fazer a diferença. Cada
+                        doação é direcionada para causar o maior impacto
+                        possível na vida daqueles que mais precisam.”
+                    </p>
+                    <br />
+                    <p>
+                        - “Compaixão: Acreditamos no poder da empatia e da
+                        bondade para aliviar o sofrimento humano. Cada doação é
+                        um ato de amor e solidariedade.”
+                    </p>
+                    <br />
+                </div>
+            </article>
+            <article class="card-sobre">
+                <div>
+                    <h1>Visão</h1>
+                </div>
+                <div>
+                    <p>
+                        Nossa visão é criar um mundo onde ninguém tenha que
+                        sofrer por falta de recursos básicos, e onde cada doação
+                        possa fazer uma diferença significativa.
+                    </p>
+                </div>
+            </article>
+        </section>
+
+        <section class="area_doacao">
+            <h3>Área de Doação</h3>
+        <div id="container">
+            <div id="slider-container">
+                <span onclick="slideRight()" class="btn"></span>
+                <div id="slider">
+                    <div class="slide"><span><img src="imgs/brinquedos.png" alt=""></span></div>
+                    <div class="slide"><span><img src="imgs/alimentos.png" alt=""></span></div>
+                    <div class="slide"><span><img src="imgs/livros.png" alt=""></span></div>
+                    <div class="slide"><span><img src="imgs/roupas.png" alt=""></span></div>
+                    <div class="slide"><span><img src="imgs/Mat.escolar.png" alt=""></span></div>
+                </div>
+
+               <button onclick=""></button>
+                <span onclick="slideLeft()" class="btn"></span>
+            </div>
+        </section>
+    
+        </div>
+        <footer>
+            <div class="footerp">
+                <p>
+                    <span>Colaboradores</span>
+                    <br>
+                    <br>
+                    Emily Santos
+                    <br>
+                    Feranda Mendonça
+                    <br>
+                    Gabiela Padilha
+                    <br>
+                    Ricardo Severo
+                </p>
+
+                <p>
+                    <span>Sobre</span>
+                    <br>
+                    <br>
+                    Doação
+                    <br>
+                    Ajua
+                    <br>
+                    Acohelimento
+                    <br>
+                    Compaixão
+                </p>
+                <form>
+                    <h1>Feedback!</h1>
+                    <input type="text" placeholder="Seu nome.." class="input" />
+                    <textarea placeholder="Seu feedback.."></textarea>
+                    <div>
+                        <div class="estrelas">
+                            <i class="fa-regular fa-star" style="color: #304d30;"></i>
+                        <i class="fa-regular fa-star" style="color: #304d30;"></i>
+                        <i class="fa-regular fa-star" style="color: #304d30;"></i>
+                        <i class="fa-regular fa-star" style="color: #304d30;"></i>
+                        <i class="fa-regular fa-star" style="color: #304d30;"></i>
+                        </div>
+                        <button><img src="" alt=""><i class="fa-solid fa-arrow-right" style="color: #f0f0f0;"></i></button>
+                    </div>
+                </form>
+            </div>
+        <div>
+        </footer>
+        
+        <script src="main.js"></script>
+        
+    </body>
+</html>
